@@ -1,0 +1,54 @@
+body{
+  height: 100vh;
+  background-image: url("brick.jpeg");
+  background-color: #1f1f1f;
+  background-repeat: no-repeat, repeat;
+
+}
+
+.grid {
+  position: absolute;
+  width: 560px;
+  height: 300px;
+  border: solid 1px black;
+  margin-top: 150px;
+  margin-left: 500px;
+  background-color: aliceblue;
+}
+
+.user {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: blueviolet;
+}
+
+.block {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: blue;
+}
+
+#score{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 720px;
+  color: #ffffff;
+}
+
+.below{
+  position: absolute;
+  bottom: 150px;
+  margin-left: 650px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: red;
+}

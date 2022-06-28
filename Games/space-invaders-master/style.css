@@ -1,0 +1,62 @@
+body{
+	background-image: url("space1.jpeg");
+	background-size: cover;
+}
+
+.grid {
+	position: absolute;
+	top: 15rem;
+	left: 40rem;
+	width: 300px;
+	height: 300px;
+	border: solid rgb(118, 13, 255) 5px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgba(230, 230, 230, 0.849);
+}
+.score{
+	position: absolute;
+	top: 5rem;
+	left: 39rem;
+	color: rgb(255, 255, 255);
+	font-size: 50px;
+
+}
+
+.title{
+	position: absolute;
+	bottom: 10rem;
+	left: 41rem;
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+}
+
+.results{
+	position: absolute;
+	top: 5.8rem;
+	left: 48rem;
+	color: rgb(255, 255, 255);
+	font-size: 50px;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.invader {
+	background-color: purple;
+	border-radius: 10px;
+}
+
+.shooter {
+	background-color: green;
+}
+
+.laser {
+	background-color: orange;
+}
+
+.boom {
+	background-color: red;
+}

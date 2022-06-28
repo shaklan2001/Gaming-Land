@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <h1 id="title">Tic-tac-toe</h1>
+    <div id="game-body"></div>
+
+    <div class="center">
+        <div id="playerinfo">
+            <input class="inputplayer" type="text" placeholder="Player 1 name 🔴" />
+            <input class="inputplayer" type="text" placeholder="Player 2 name ❌" />
+            <p style="visibility: hidden" id="input-warning">Player names can't be the same</p>
+            <button id="playerbtn" onclick="setPlayerName()">Send</button>
+            <p id="playerturn"></p>
+        </div>
+    </div>
+
+    <div id="game-modal">
+        <div id="game-card">
+            <p>Game over</p>
+            <p id="card-message"></p>
+            <button id="resetbtn" onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

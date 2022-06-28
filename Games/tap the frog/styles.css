@@ -1,0 +1,39 @@
+body{
+	background-image: url("bg.jpeg");
+	background-color: rgba(0, 0, 0, 0.526);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.grid {
+	position: absolute;
+	left: 33rem;
+	bottom: 6rem;
+	width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgb(250, 252, 250);
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	border: solid black 1px;
+}
+
+.mole {
+	background-image: url("frog.png");
+	background-size: cover;
+}
+
+.container{
+	position: absolute;
+	top: 10rem;
+	left: 20rem;
+	font-size: 20px;
+	color: white;
+	background-color: rgb(6, 6, 6);
+	padding: 20px;
+}
